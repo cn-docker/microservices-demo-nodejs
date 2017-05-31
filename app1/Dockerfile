@@ -1,0 +1,15 @@
+FROM node:8.0.0-alpine
+MAINTAINER Julian Nonino <noninojulian@outlook.com>
+
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+
+COPY package.json /usr/src/app/
+RUN npm install
+
+COPY . /usr/src/app
+
+EXPOSE 8080
+
+CMD [ "npm", "start" ]
+

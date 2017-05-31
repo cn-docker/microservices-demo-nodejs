@@ -1,0 +1,12 @@
+{
+  "name": "App 1",
+  "version": "1.0.0",
+  "author": "Julian Nonino <noninojulian@outlook.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}

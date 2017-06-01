@@ -14,3 +14,19 @@ To create a container from that image, run:
 You will be able to see the app going to:
   
     localhost:XXXX
+
+### Rest API
+
+The app contains three Rest API.  
+
+Index - Return the served site.  
+
+    localhost:XXXX  
+    
+Exit Successfully - Accessing this Rest API will make the container to exit successfully.  
+
+    localhost:XXXX/exitSuccess  
+    
+Exit With Error - Accessing this Rest API will make the container to exit with error.  
+
+    localhost:XXXX/exitWithError      

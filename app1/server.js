@@ -23,6 +23,5 @@ app.get('/exitSuccess', function (req, res) {
   process.exit(0);
 });
 
-
 app.listen(PORT);
 console.log('Running on http://localhost:' + PORT);

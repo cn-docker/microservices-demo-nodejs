@@ -1,5 +1,5 @@
 FROM node:8.0.0-alpine
-MAINTAINER Julian Nonino <noninojulian@outlook.com>
+MAINTAINER Julian Nonino <noninojulian@gmail.com>
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app

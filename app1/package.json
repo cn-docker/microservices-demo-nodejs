@@ -1,7 +1,7 @@
 {
   "name": "app1",
   "version": "1.0.0",
-  "author": "Julian Nonino <noninojulian@outlook.com>",
+  "author": "Julian Nonino <noninojulian@gmail.com>",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"

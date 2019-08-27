@@ -1,5 +1,11 @@
 # Microservices Demo  [![Docker hub](https://img.shields.io/docker/pulls/jnonino/microservices-demo-nodejs.svg)](https://hub.docker.com/r/jnonino/microservices-demo-nodejs/)
 
+[![](https://img.shields.io/github/license/jnonino/microservices-demo-nodejs)](https://github.com/jnonino/microservices-demo-nodejs)
+[![](https://img.shields.io/github/issues/jnonino/microservices-demo-nodejs)](https://github.com/jnonino/microservices-demo-nodejs)
+[![](https://img.shields.io/github/issues-closed/jnonino/microservices-demo-nodejs)](https://github.com/jnonino/microservices-demo-nodejs)
+[![](https://img.shields.io/github/languages/code-size/jnonino/microservices-demo-nodejs)](https://github.com/jnonino/microservices-demo-nodejs)
+[![](https://img.shields.io/github/repo-size/jnonino/microservices-demo-nodejs)](https://github.com/jnonino/microservices-demo-nodejs)
+
 ## App1
 
 This is a node.js app that serves a web page showing the ID of the docker container in which it is running.

@@ -1,9 +1,9 @@
 # Microservices Demo
 
-[![](https://img.shields.io/docker/pulls/jnonino/microservices-demo-nodejs)](https://hub.docker.com/r/jnonino/microservices-demo-nodejs/)
-[![](hhttps://img.shields.io/docker/build/jnonino/microservices-demo-nodejs)](https://hub.docker.com/r/jnonino/microservices-demo-nodejs/)
-[![](https://img.shields.io/docker/automated/jnonino/microservices-demo-nodejs)](https://hub.docker.com/r/jnonino/microservices-demo-nodejs/)
-[![](https://img.shields.io/docker/stars/jnonino/microservices-demo-nodejs)](https://hub.docker.com/r/jnonino/microservices-demo-nodejs/)
+[![](https://img.shields.io/docker/pulls/cnservices/microservices-demo-nodejs)](https://hub.docker.com/r/cnservices/microservices-demo-nodejs/)
+[![](hhttps://img.shields.io/docker/build/cnservices/microservices-demo-nodejs)](https://hub.docker.com/r/cnservices/microservices-demo-nodejs/)
+[![](https://img.shields.io/docker/automated/cnservices/microservices-demo-nodejs)](https://hub.docker.com/r/cnservices/microservices-demo-nodejs/)
+[![](https://img.shields.io/docker/stars/cnservices/microservices-demo-nodejs)](https://hub.docker.com/r/cnservices/microservices-demo-nodejs/)
 [![](https://img.shields.io/github/license/cn-docker/microservices-demo-nodejs)](https://github.com/cn-docker/microservices-demo-nodejs)
 [![](https://img.shields.io/github/issues/cn-docker/microservices-demo-nodejs)](https://github.com/cn-docker/microservices-demo-nodejs)
 [![](https://img.shields.io/github/issues-closed/cn-docker/microservices-demo-nodejs)](https://github.com/cn-docker/microservices-demo-nodejs)

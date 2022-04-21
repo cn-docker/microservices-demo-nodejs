@@ -1,4 +1,4 @@
-FROM node:17.9.0-alpine
+FROM node:18.0.0-alpine
 MAINTAINER Julian Nonino <noninojulian@gmail.com>
 
 RUN mkdir -p /usr/src/app

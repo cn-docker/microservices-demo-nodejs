@@ -1,4 +1,4 @@
-FROM node:20.3.0-alpine
+FROM node:20.3.1-alpine
 MAINTAINER Julian Nonino <noninojulian@gmail.com>
 
 RUN mkdir -p /usr/src/app

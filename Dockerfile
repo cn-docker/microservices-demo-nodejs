@@ -1,13 +1,14 @@
 FROM node:20.5.0-alpine
-MAINTAINER Julian Nonino <noninojulian@gmail.com>
+LABEL author="Julian Nonino <noninojulian@gmail.com>"
 
-RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
-COPY package.json /usr/src/app/
+COPY package*.json ./
 RUN npm install
 
-COPY . /usr/src/app
+COPY . .
+
+USER node
 
 EXPOSE 3000
 

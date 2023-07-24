@@ -3,14 +3,13 @@
 const express = require('express');
 const os = require('os');
 
-// Constants
-const PORT = 8080;
-
-// App
 const app = express();
+const port = 3000;
 
-app.get('/', function (req, res) {
-  res.send('<h1>Hello world from: ' + os.hostname() + '<h1>');
+const version = process.env.VERSION || 'NOT_SET';
+
+app.get('/', (req, res) => {
+  res.send(`<h1>Hello world from : ${os.hostname()} - App version ${version}<h1>`);
 });
 
 app.get('/exitWithError', function (req, res) {
@@ -23,5 +22,6 @@ app.get('/exitSuccess', function (req, res) {
   process.exit(0);
 });
 
-app.listen(PORT);
-console.log('Running on http://localhost:' + PORT);
+app.listen(port, () => {
+  console.log(`Server is running at http://localhost:${port}`);
+});

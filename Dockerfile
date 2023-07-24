@@ -8,7 +8,8 @@ RUN npm install
 
 COPY . .
 
-USER node
+# Set node user
+USER 1000
 
 EXPOSE 3000
 

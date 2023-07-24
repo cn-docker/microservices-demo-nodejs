@@ -8,7 +8,8 @@ RUN npm install
 
 COPY . .
 
-# Set node user
+# Run as non root
+RUN mkdir -p /home/node/.npm && chown -R node:node /home/node
 USER 1000
 
 EXPOSE 3000

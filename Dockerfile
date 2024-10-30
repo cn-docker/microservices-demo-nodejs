@@ -1,4 +1,4 @@
-FROM node:21.7.3-alpine
+FROM node:22.11.0-alpine
 LABEL author="Julian Nonino <noninojulian@gmail.com>"
 
 WORKDIR /usr/src/app
